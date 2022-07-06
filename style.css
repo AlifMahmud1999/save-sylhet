@@ -9,8 +9,8 @@ section{
     color: white;
     padding-top: 30px ;
     padding-bottom: 60px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
     text-align: center;
     background-image: url(images/banner1.jpg);
     background-repeat:no-repeat ;
@@ -35,8 +35,8 @@ section{
     color:grey;
     padding-top: 30px ;
     padding-bottom: 60px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
     text-align: center;
 }
 .donate-ammount{
@@ -73,4 +73,60 @@ label{
 }
 hr{
     margin: 0 20%;
+}
+#donate-button{
+    margin: 30px;
+}
+#donation-plan{
+    display: flex;
+    padding-left: 30px;
+}
+.plan-box{
+    margin: 5%;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    box-shadow:10px 10px 40px ;
+    border-radius: 20px;
+}
+#blue{
+    background-color: rgba(176, 224, 230, 0.541);
+}
+#red{
+    background-color: rgba(255, 99, 71, 0.383);
+}
+#yellow{
+    background-color: rgba(222, 184, 135, 0.425);
+}
+#get-update{
+    margin: 0 30%;
+    background-color: bisque;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+#email{
+    background-color: rgba(128, 128, 128, 0.292);
+    border: 0;
+    border-radius: 5px;
+}
+#subscribe{
+    background-color: tomato;
+    border: 0;
+    color: aliceblue;
+    border-radius: 5px;
+}
+section{
+    margin-bottom: 100px;
+}
+footer{
+    font-family: 'Lobster', cursive;
+    background-color: black;
+    text-align: center;
+}
+footer h1{
+    color: tomato;
+}
+footer p{
+    color: white;
 }
